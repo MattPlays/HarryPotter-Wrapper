@@ -1,0 +1,14 @@
+{
+    "compileOnSave": true,
+    "compilerOptions": {
+        "target": "ES5",
+        "moduleResolution": "node",
+        "allowSyntheticDefaultImports": true,
+        "forceConsistentCasingInFileNames": true,
+        "declaration": true,
+        "lib": ["ES2015", "DOM"],
+        "outDir": "build"
+    },
+    "include": ["src/index.ts"],
+    "exclude": ["node_modules"]
+}
